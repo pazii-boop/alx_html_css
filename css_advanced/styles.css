@@ -1,2 +1,102 @@
-h1 {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  background-color: #141414;
+  line-height: 1.5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: url("path-to-background-image.jpg") no-repeat center center/cover;
+  position: relative;
+}
+
+.hero-text h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sub-text {
+  font-size: 18px;
+  color: #bbb;
+  margin-bottom: 30px;
+}
+
+.sub-text span {
+  margin-right: 15px;
+}
+
+.cta-btn {
+  background-color: #a946f2;
+  padding: 15px 30px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.testimonials {
+  margin-top: 60px;
+}
+
+.testimonials h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.testimonials-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  text-align: center;
+  width: 200px;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.testimonial span {
+  font-size: 14px;
+  color: #aaa;
 }
